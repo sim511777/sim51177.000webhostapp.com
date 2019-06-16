@@ -29,6 +29,11 @@
     outline-width: 0;
 }
 
+#calculator #calc-button {
+    width: 100%;
+    height: 36px;
+}
+
 #calculator #calc-history div {
     height: 36px;
     line-height: 36px;

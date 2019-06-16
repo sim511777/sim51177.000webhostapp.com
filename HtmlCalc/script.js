@@ -1,9 +1,14 @@
 var formulaInput = document.getElementById("formula-input");
 var calcHistDiv = document.getElementById("calc-history");
+var calcButton = document.getElementById("calc-button");
 formulaInput.addEventListener("keypress", function (e) {
     if (e.code === "Enter")
         calculate();
 })
+calcButton.addEventListener("click", function () {
+    calculate();
+})
+
 
 function calculate() {
     var exp = formulaInput.value;
